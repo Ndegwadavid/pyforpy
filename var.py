@@ -22,3 +22,18 @@ x = str(3)  #string will be in quotation marks
 y = int(3)   # does not change literally
 z = float(3)  #this will be 3.0 beacuse floats are reuslted to decimal 
 
+#GIVING VARIABLES NAMES
+#variables rules in python:
+"""
+                          variable must start with a letter or underscore
+                          cannot start with a number
+                          are case sensitive
+                          cannot contain non alfaneumerics and non alphabets
+                          """
+                          #example
+myvar = "John"
+my_var =  "John"
+my_var = "John"
+myVar = "John"
+print(myvar)
+print(my_var)
