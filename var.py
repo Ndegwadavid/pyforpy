@@ -16,3 +16,9 @@ x = 4    # x is a type of int
 x = "sally" #x is now a type of string 
 print(x)
 #this case the value printed will be sally 
+
+#if we want the above not to happen we can specify the data type of a variable through casting
+x = str(3)  #string will be in quotation marks 
+y = int(3)   # does not change literally
+z = float(3)  #this will be 3.0 beacuse floats are reuslted to decimal 
+
