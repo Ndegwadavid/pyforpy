@@ -20,3 +20,16 @@ myfunc()
 print("Python is " + x) #in this case we have added another variable 
 #this time rounf the first variable inside the fuction will be stored locally whereas the 
 #other variable will be made globally (the  fantastic value will be made global)
+
+#when we create a variable inside a function the variable will be made local but 
+#we can make it global by giving it a ket global for examle below..... this will leade 
+#to making the value we have assigned to be global being superior 
+
+x = "awesome"
+def myfunc():
+  global x
+  x = "fantastic"
+
+myfunc()
+
+print("Python is " + x)  #in the code above th fantsctic will be executed since we made it a global variable 
