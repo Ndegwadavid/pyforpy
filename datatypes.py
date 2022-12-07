@@ -23,4 +23,19 @@ x = memoryview(bytes(5))
 print(x)
 print(type(x))
 
+#there is a difference between a list and a tuple 
+x = ("Aplle" , "Banana", "Apple") #this is a tuple and uses brackets
+x = ["Aplle" , "Banana", "Apple"] #this is a list and uses block brackets
+x = x = {"Aplle" , "Banana", "Apple"} #this is a set and uses curly braces
+
+x = frozenset({"apple", "banana", "cherry"})
+
+#display x:
+print(x)
+
+#display the data type of x: #frozen dat types
+print(type(x)) 
+
+
+
 
